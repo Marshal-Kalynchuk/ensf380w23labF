@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T20:53:24.804Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="nMicsaz3WITJ7Cij7vM8" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-16T20:53:52.127Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="lqf_wZzFV3-mYzCqhwA8" version="21.0.6" type="github">
   <diagram name="Page-1" id="w6vay4CM0imPE2UAvKqg">
-    <mxGraphModel dx="3021" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1330" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -87,6 +87,18 @@
         </mxCell>
         <mxCell id="CjihOQv_C-0zfXQnCnq9-12" value="+ method(type): type&lt;br&gt;+ Hamper(Person[] clientIDs)&lt;br&gt;+&amp;nbsp;calculateTotalRequirementsCeiling(int[] clientIDs)&lt;br&gt;+ findOptimalHamper(AvailableFood&lt;br/&gt; availableFood): AvailableFood&amp;nbsp; &lt;br&gt;+ setHamperContents()&lt;br/&gt;&lt;br&gt;+ getHamperContents(): AvailableFood &lt;br&gt;+ getTotalWeeklyCalorieRequirementsByType():&lt;br/&gt; HashSet&lt;br/&gt;&lt;br&gt;+ getShortFall(): ArrayList" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CjihOQv_C-0zfXQnCnq9-9">
           <mxGeometry y="128" width="420" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="CjihOQv_C-0zfXQnCnq9-13" value="AvailableFood" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="640" width="270" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="CjihOQv_C-0zfXQnCnq9-14" value="+ availableFoods: LinkedList&amp;lt;FoodItem&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CjihOQv_C-0zfXQnCnq9-13">
+          <mxGeometry y="26" width="270" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="CjihOQv_C-0zfXQnCnq9-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CjihOQv_C-0zfXQnCnq9-13">
+          <mxGeometry y="70" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CjihOQv_C-0zfXQnCnq9-16" value="+ method(type): type&lt;br&gt;+getAvailableFoods(): LinkedList&amp;nbsp;&lt;br&gt;+ removeFoodItem(FoodItem food) &lt;br&gt;+ removeFoodItem(int foodID)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CjihOQv_C-0zfXQnCnq9-13">
+          <mxGeometry y="78" width="270" height="100" as="geometry" />
         </mxCell>
         <mxCell id="5vHbgtkAKjBmpQbh6Rdm-15" value="Classname" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="480" width="270" height="140" as="geometry" />
