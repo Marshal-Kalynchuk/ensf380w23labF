@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T20:50:09.269Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Ji58H9a4Cdg4zAh4scub" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-16T20:50:38.737Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Qxtm1RaMJGAJDyjE6tQj" version="21.0.6" type="github">
   <diagram name="Page-1" id="w6vay4CM0imPE2UAvKqg">
-    <mxGraphModel dx="1354" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1576" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5vHbgtkAKjBmpQbh6Rdm-1" value="ShortfallException" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="270" width="340" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="5vHbgtkAKjBmpQbh6Rdm-5" value="ShortfallException()&lt;br/&gt;&lt;br/&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="5vHbgtkAKjBmpQbh6Rdm-1">
+          <mxGeometry y="26" width="340" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="CjihOQv_C-0zfXQnCnq9-9" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-180" y="210" width="420" height="290" as="geometry" />
         </mxCell>
@@ -15,6 +21,18 @@
         </mxCell>
         <mxCell id="CjihOQv_C-0zfXQnCnq9-12" value="+ method(type): type&lt;br&gt;+ Hamper(Person[] clientIDs)&lt;br&gt;+&amp;nbsp;calculateTotalRequirementsCeiling(int[] clientIDs)&lt;br&gt;+ findOptimalHamper(AvailableFood&lt;br/&gt; availableFood): AvailableFood&amp;nbsp; &lt;br&gt;+ setHamperContents()&lt;br/&gt;&lt;br&gt;+ getHamperContents(): AvailableFood &lt;br&gt;+ getTotalWeeklyCalorieRequirementsByType():&lt;br/&gt; HashSet&lt;br/&gt;&lt;br&gt;+ getShortFall(): ArrayList" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CjihOQv_C-0zfXQnCnq9-9">
           <mxGeometry y="128" width="420" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="5vHbgtkAKjBmpQbh6Rdm-15" value="&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt; &lt;br&gt;NutrientTypes&lt;br/&gt;&lt;br/&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="510" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="5vHbgtkAKjBmpQbh6Rdm-16" value="wholeGrains" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5vHbgtkAKjBmpQbh6Rdm-15">
+          <mxGeometry y="50" width="270" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="5vHbgtkAKjBmpQbh6Rdm-17" value="FruitsAndVeggies" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5vHbgtkAKjBmpQbh6Rdm-15">
+          <mxGeometry y="82" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5vHbgtkAKjBmpQbh6Rdm-18" value="Protein&lt;br&gt;Other" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5vHbgtkAKjBmpQbh6Rdm-15">
+          <mxGeometry y="108" width="270" height="62" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
